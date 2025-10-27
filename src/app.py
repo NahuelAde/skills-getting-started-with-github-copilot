@@ -85,7 +85,7 @@ def root():
 
 @app.get("/activities")
 def get_activities():
-    return activities
+    return activities  # This already returns participants
 
 
 @app.post("/activities/{activity_name}/signup")
